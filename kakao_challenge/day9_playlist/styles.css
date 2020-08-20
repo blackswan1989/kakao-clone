@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, "Segoe UI", "Open Sans", "Helvetica Neue",
+    sans-serif;
+  height: 1000px;
+  border: 6px solid #00c6ac;
+  font-weight: 600;
+}
+
+/* ###### status-bar ######  */
+.status-bar {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  margin: 70px 0px;
+}
+
+.status-bar__column {
+  width: 33%;
+}
+
+.status-bar__column .fa-times {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+/* ######  header ######  */
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 50px 0px;
+}
+
+.header-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150px;
+}
+
+.header-column__img img {
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 150px;
+}
+
+.header-column__text {
+  width: 200px;
+  margin-left: 20px;
+}
+
+.bigText {
+  font-size: 3rem;
+}
+
+.smallText {
+  font-size: 1.2rem;
+}
+
+/* ######  play-nav-bar ######  */
+
+.play-nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-nav-bar__column {
+  display: flex;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 50%;
+  box-shadow: 0px 5px 0px 0px black;
+  font-size: 1.5rem;
+}
+
+.play-nav-bar__column:nth-child(1) {
+  padding: 20px 60px;
+  border-radius: 15px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.play-nav-bar__column:nth-child(2) {
+  padding: 20px 20px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.play-nav-bar__column:nth-child(3) {
+  padding: 20px 20px;
+  cursor: pointer;
+}
+
+/*  ###### main-container ######  */
+
+.main-container {
+  margin: 50px 45px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-listBox {
+  display: flex;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.main-listBox__colorBox1,
+.main-listBox__colorBox2,
+.main-listBox__colorBox3,
+.main-listBox__colorBox4 {
+  height: 80px;
+  width: 80px;
+  background-color: pink;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.main-listBox__textBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 15px;
+}
+
+.main-listBox__text:nth-child(1) {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.main-listBox__text:nth-child(2) {
+  font-size: 1rem;
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+.main-listBox__colorBox1 {
+  background-color: #f85a2b;
+}
+
+.main-listBox__colorBox2 {
+  background-color: #ff89bc;
+}
+
+.main-listBox__colorBox3 {
+  background-color: #1a47e5;
+}
+
+.main-listBox__colorBox4 {
+  background-color: #00c6ac;
+}

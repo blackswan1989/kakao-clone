@@ -5,6 +5,9 @@
   font-size: 100%;
 }
 
+html {
+  max-width: 550px;
+}
 body {
   font-family: -apple-system, "Segoe UI", "Open Sans", "Helvetica Neue",
     sans-serif;
@@ -49,6 +52,7 @@ input:focus {
 }
 
 .search-bar {
+  max-width: 500px;
   position: absolute;
   top: 100px;
   background-color: white;

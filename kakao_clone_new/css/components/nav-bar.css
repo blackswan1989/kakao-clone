@@ -1,0 +1,49 @@
+.nav {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  background-color: #f9f9fa;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
+  color: #373f47;
+}
+
+.nav__notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background-color: tomato;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  /* potirion:absolute설정 후 방향을 설정하게되면 body를 기준으로 움직여지므로 이를 감싸는 부모 속성에 position:relative를 주어야 그 안에서만 움직이게 된다. 즉 가장 까까운 relative안에서 움직이게된다.(body가 디폴트로 설정되어있음) */
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+}
+
+.nav__notification_dot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: absolute;
+  left: 30px;
+  bottom: 25px;
+}

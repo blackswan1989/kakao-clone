@@ -1,0 +1,61 @@
+body {
+  background-color: lightgray;
+  height: 100vh;
+}
+body h1 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.box1:first-child {
+  background-color: #ff6347;
+  width: 200px;
+  height: 300px;
+  padding-top: 10px;
+  margin: 10px;
+  border: 3px solid white;
+}
+.box1:nth-child(2) {
+  background-color: #008080;
+  width: 200px;
+  height: 300px;
+  padding-top: 10px;
+  margin: 10px;
+  border: 3px solid white;
+}
+.box2:nth-child(1) {
+  background-color: #deb887;
+  width: 200px;
+  height: 300px;
+  padding-top: 10px;
+  margin: 10px;
+  border: 3px solid white;
+}
+.box2:nth-child(2) {
+  background-color: #d7bfd7;
+  width: 200px;
+  height: 300px;
+  padding-top: 10px;
+  margin: 10px;
+  border: 3px solid white;
+}
+.item {
+  background-color: white;
+  width: 200px;
+  height: 100px;
+  margin-top:10px;
+}
+.name {
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.color {
+  font-weight: bolder;
+  font-size: 15px;
+  font-family: Times New Roman", Times, serif;
+}

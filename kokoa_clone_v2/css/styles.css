@@ -1,5 +1,7 @@
 @import "reset.css";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+@import "variables.css";
+@import "login.css";
 @import "status-bar.css";
 @import "header.css";
 @import "nav-bar.css";
@@ -41,4 +43,8 @@ a {
 
 main {
   animation: fadeIn 0.5s ease-in-out;
+}
+
+input:focus {
+  outline: none;
 }

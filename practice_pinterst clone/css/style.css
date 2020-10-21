@@ -1,0 +1,23 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import "image-section.css";
+@import "status-bar.css";
+@import "nav-bar.css";
+@import "bottom-BtnBox.css";
+
+body {
+  font-family: "Pacifico", cursive;
+  background-color: rgb(17, 17, 17);
+  color: rgb(235, 235, 235);
+}
+
+a {
+  color: inherit;
+  /* inherit은 부모요소로 부터 색깔을 받아오는 태그. 즉 링크들이 디폴트로 설정된 보라색 대신 부모요소의 색을 자연스레 따라가게 된다. */
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  margin: 20px 0px;
+}

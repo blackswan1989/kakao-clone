@@ -1,0 +1,52 @@
+.navBar {
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  top: 15px;
+  width: 100%;
+}
+
+.navBar__column {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  opacity: 0.98;
+  color: rgb(235, 235, 235);
+  background-color: rgb(17, 17, 17);
+  padding: 15px 0px;
+}
+
+.navBar__column li {
+  padding: 8px 12px;
+}
+
+.p-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  color: white;
+  border-radius: 100%;
+  margin-left: 10px;
+  width: 10px;
+  height: 15px;
+}
+
+.p-button a {
+  font-size: 15px;
+  padding: 15px 10px;
+}
+
+
+/* javascrript로 클릭시 색상이 바뀌게
+.navBar__column .navList {
+  background-color: white;
+  opacity: 1;
+  border-radius: 40%;
+  border: 5px solid white;
+}
+*/

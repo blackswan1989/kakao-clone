@@ -1,0 +1,16 @@
+.bottomBtnBox {
+  display: none;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.btnBoxList {
+  display: none;
+  padding: 8px 15px;
+  font-size: 25px;
+  cursor: pointer;
+}

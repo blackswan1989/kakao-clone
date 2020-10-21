@@ -1,0 +1,40 @@
+img {
+  width: 100%;
+}
+
+.section_images {
+  display: flex;
+  margin-top: 75px;
+}
+
+.article_left {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 5px;
+}
+
+.article_right {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 5px;
+}
+
+.leftImages,
+.rightImages {
+  border-radius: 4%;
+  cursor: pointer;
+}
+
+.image_icon {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image_icon i {
+  cursor: pointer;
+}

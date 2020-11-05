@@ -1,21 +1,25 @@
 .welcome-header {
-  /* top&bottom left&rignt */
-  margin: 90px 0px;
-  text-align: center;
+  margin: 50px 10px;
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   font-weight: 500;
 }
 
 .welcome-header__title {
-  margin-bottom: 40px;
-  font-size: 25px;
+  margin-top: 80px;
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  color: var(--main-green);
 }
 
 .welcome-header__text {
-  width: 60%;
-  opacity: 0.5;
+  width: 80%;
+  margin: 40px 0px;
+  opacity: 0.7;
+  font-size: var(--font-micro);
+  color: var(--main-green);
 }
 
 #login-form {
@@ -27,43 +31,49 @@
 #login-form input {
   padding: 15px 0px;
   border: none;
-  font-size: 18px;
   margin-bottom: 5px;
+  font-size: var(--font-small);
+  color: var(--title-white);
 }
 
 /* :not()을 사용하면 해당되는 것을 제외한 곳에만 적용시켜준다. */
 #login-form input:not([type="submit"]) {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid var(--main-green);
   transition: border-color 0.3s ease-in-out;
-  color: var(--yellow);
+  color: var(--main-green);
 }
 
 #login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.2);
+  color: rgba(150, 165, 148, 0.2);
+  background-color:none;
 }
 
 #login-form :nth-child(3) {
   margin-top: 30px;
-  font-size: 16px;
+  font-size: var(--font-micro);
 }
 
 #login-form :nth-child(4) {
   margin-top: 10px;
-  font-size: 16px;
+  font-size: var(--font-micro);
 }
 
 #login-form input:focus {
-  border-color: var(--yellow);
+  border-color: var(--main-green);
+  color: var(--main-green);
+  font-size: var(--font-micro);
 }
 
 #login-form input:focus::-webkit-input-placeholder,
 textarea:focus::-webkit-input-placeholder {
-  color: var(--yellow);
+  color: var(--main-green);
+  font-size: var(--font-micro);
   transition: 0.3s ease-in-out;
 }
 
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  background-color: var(--main-green);
+  font-size: var(--font-micro);
   cursor: pointer;
   padding: 18px 0px;
   border-radius: 5px;
@@ -75,5 +85,7 @@ textarea:focus::-webkit-input-placeholder {
   text-decoration: none;
   color: inherit;
   /* color: inherit; 이 속성은 부모로부터 상속받는 것. */
-  font-size: 15px;
+  font-size: var(--font-micro);
+  opacity: 0.7;
+  color: var(--main-green);
 }

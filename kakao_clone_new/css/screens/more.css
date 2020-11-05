@@ -55,10 +55,16 @@
 
 
 /* More contents */
+.user-component.more{
+  background-color: var(--title-white);
+  height: 800px;
+}
+
 .more-contents{
   width: 100%;
   padding: 20px 10px;
   font-size: var(--font-regular);
+  /* background-color:var(--main-ivory); */
 }
 
 .more-contents__pay{
@@ -100,6 +106,7 @@
   flex-grow: 1;
   margin-top: 5px;
   color: var(--title-dark-gray);
+  margin-bottom: 60px;
 }
 
 .more-contents__icons--box{
@@ -131,10 +138,4 @@
 
 .more-contents__icons--box:active{
   transform: scale(0.9);
-}
-
-/* more nav */
-
-.nav.more{
-  padding: 25px 50px;
 }

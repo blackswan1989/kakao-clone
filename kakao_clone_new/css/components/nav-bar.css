@@ -2,7 +2,7 @@
   width: 100%;
   position: fixed;
   bottom: 0px;
-  padding: 13px 50px;
+  padding: 25px 50px;
   box-sizing: border-box;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-top-left-radius: 35px;
@@ -58,10 +58,4 @@
   position: absolute;
   left: 30px;
   bottom: 20px;
-}
-
-/* more nav */
-
-.nav.more, .nav.search{
-  padding: 25px 50px;
 }

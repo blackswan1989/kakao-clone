@@ -3,13 +3,14 @@
 .user-component {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
   border-top-left-radius: 35px;
   border-top-right-radius: 35px;
   background-color: var(--title-white);
   color: var(--title-black);
+  height: 80vh;
 }
 
 .user-component__column{
@@ -32,10 +33,6 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-}
-
-.user-component__column:last-child {
-  padding-bottom: 80px;
 }
 
 .user-component__avatar{

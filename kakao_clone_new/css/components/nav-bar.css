@@ -2,12 +2,12 @@
   width: 100%;
   position: fixed;
   bottom: 0px;
-  padding: 21px 50px;
+  padding: 13px 50px;
   box-sizing: border-box;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-top-left-radius: 35px;
   border-top-right-radius: 35px;
-  background-color: var(--main-light-green);
+  background-color: var(--main-green);
   font-size: var(--font-micro);
   color: var(--title-white);
 }

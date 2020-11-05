@@ -1,0 +1,23 @@
+.favorite-contact__container-column i {
+  font-size: var(--font-large);
+  margin-bottom: 10px;
+  opacity: 1;
+}
+
+.favorite-contact__container-column i:active {
+  transform: scale(1.05);
+}
+
+
+.search__imgs{
+  padding: 30px 0px;
+  border-top-left-radius: 33px;
+  border-top-right-radius: 33px;
+  background-color: #2C4D9E;
+  color: var(--title-black);
+}
+
+.search__imgs img{
+  width: 100%;
+  margin: -1px 0px;
+}

@@ -5,6 +5,7 @@
   --font-regular: 26px;
   --font-small: 18px;
   --font-micro: 14px;
+  --font-tiny: 12px;
   --font-icon: 10px;
 
   --weight-bold: 700;
@@ -16,6 +17,7 @@
   --main-ivory: #F1EBE7;
   
   --bg-white: #f9f9fa;
+  --hover-white: white;
   
   --value-brown: #E3D6C8;
   --value-red: rgb(255, 110, 85);

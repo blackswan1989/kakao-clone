@@ -2,14 +2,24 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 25px;
+  margin-top: 30px;
+  padding: 20px 10px;
+  font-size: var(--font-small);
+  font-weight: var(--weight-bold);
+  color: var(--title-white);
+  background-color:var(--main-green);
 }
 
 .screen-header__title {
-  font-size: 28px;
+  font-size: var(--font-regular);
   font-weight: 600;
 }
 
 .screen-header__icons span {
-  margin-left: 20px;
+  font-size: var(--font-small);
+  cursor: pointer;
+}
+
+.fa-search{
+  margin-right: 10px;
 }

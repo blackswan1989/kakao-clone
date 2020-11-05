@@ -11,12 +11,17 @@
 @import "screens/login.css";
 @import "screens/friends.css";
 
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: -apple-system, "Segoe UI", "Helvetica Neue", sans-serif;
 
   font-family: "Open Sans", sans-serif;
 
-  height: 1000vh;
+  /* height: 1000vh; */
 
-  color: #2e363e;
+  background-color:var(--main-light-green);
 }

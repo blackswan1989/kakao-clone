@@ -12,7 +12,9 @@
   background-color: var(--main-green);
   color: var(--title-white);
   font-weight: var(--weight-regular);
+  z-index: 1;
 }
+
 .status-bar__column {
   width: 32%;
 }

@@ -43,6 +43,7 @@
   background-color: var(--main-ivory);
   line-height: 17px;
   text-align: start;
+  box-shadow: 1px 3px 0px 2px var(--main-green);
 }
 
 .messages__description-time{

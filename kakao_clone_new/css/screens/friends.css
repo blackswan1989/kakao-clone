@@ -27,6 +27,7 @@
 }
 
 .favorite-contact__title{
+  margin-left: 10px;
   margin-bottom: 20px;
   font-size: var(--font-small);
   font-weight: var(--weight-semi-bold);

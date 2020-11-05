@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   background-color: white;
-  padding: 10px 0px;
+  padding: 10px 10px;
   font-size: var(--font-micro);
   background-color: var(--main-green);
   color: var(--title-white);
@@ -16,7 +16,7 @@
 }
 
 .status-bar__column {
-  width: 32%;
+  width: 33%;
 }
 
 .status-bar__column:first-child span {
@@ -35,12 +35,12 @@
 }
 
 .status-bar__column .fa-lock {
-  margin: 0px 8px;
+  margin-right: 6px;
   font-size: var(--font-icon);
 }
 
-.status-bar__column .fa-battery-quarter {
-  margin-left: 5px;
+.status-bar__column span {
+  margin-right: 5px;
 }
 
 .fa-bolt {

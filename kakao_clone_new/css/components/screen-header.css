@@ -1,21 +1,22 @@
 .screen-header {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
-  padding: 20px 10px;
   font-size: var(--font-small);
   font-weight: var(--weight-bold);
   color: var(--title-white);
   background-color:var(--main-green);
   border-bottom-left-radius: 35px;
   border-bottom-right-radius: 35px;
+  margin-top: 25px;
+  padding: 20px 20px;
   padding-bottom: 30px;
 }
 
 .screen-header__title {
   font-size: var(--font-regular);
-  font-weight: 600;
+  font-weight: var(--weight-semi-bold);
 }
 
 .screen-header__icons span {

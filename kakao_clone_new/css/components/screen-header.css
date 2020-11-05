@@ -27,3 +27,7 @@
 .fa-search{
   margin-right: 10px;
 }
+
+.screen-header__title i:active {
+  transform: scale(0.9);
+}

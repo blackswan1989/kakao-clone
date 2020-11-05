@@ -19,9 +19,17 @@
   font-weight: var(--weight-semi-bold);
 }
 
-.screen-header__icons span {
+.screen-header__icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: var(--font-small);
   cursor: pointer;
+}
+
+.fa-user-plus {
+  font-size: var(--font-regular);
+  margin-right: 10px;
 }
 
 .fa-search{

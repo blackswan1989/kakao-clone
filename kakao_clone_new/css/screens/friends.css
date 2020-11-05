@@ -63,7 +63,9 @@
   margin-top: 5px;
 }
 
-
+.user-component.friends {
+ padding-bottom: 60px;
+}
 
 .user-component.friends .user-component__column{
   padding:0px 15px;

@@ -28,6 +28,10 @@
   margin-right: 10px;
 }
 
+.screen-header__icons i:active{
+  transform: scale(0.9);
+}
+
 .screen-header__title i:active {
   transform: scale(0.9);
 }

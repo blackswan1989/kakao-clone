@@ -27,6 +27,16 @@
   cursor: pointer;
 }
 
+.screen-header__icons a > i:hover{
+  transform: rotate(360deg);
+  transition-duration: 1s;
+}
+
+.screen-header__icons i:hover{
+  color: var(--value-red);
+  transition-duration: 0.5s;
+}
+
 .fa-user-plus, .fa-qrcode {
   font-size: var(--font-regular);
   margin-right: 10px;

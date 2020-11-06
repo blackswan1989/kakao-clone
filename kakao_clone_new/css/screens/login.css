@@ -1,5 +1,5 @@
 .welcome-header {
-  margin: 50px 10px;
+  margin: 30px 10px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -8,10 +8,10 @@
 }
 
 .welcome-header__title {
-  margin-top: 80px;
+  margin-top: 120px;
   font-size: var(--font-regular);
   font-weight: var(--weight-bold);
-  color: var(--main-green);
+  color: var(--title-white);
 }
 
 .welcome-header__text {
@@ -19,7 +19,8 @@
   margin: 40px 0px;
   opacity: 0.7;
   font-size: var(--font-micro);
-  color: var(--main-green);
+  color: var(--title-white);
+  line-height: 20px;
 }
 
 #login-form {
@@ -29,7 +30,7 @@
 }
 
 #login-form input {
-  padding: 15px 0px;
+  padding: 15px 10px;
   border: none;
   margin-bottom: 5px;
   font-size: var(--font-small);
@@ -40,7 +41,8 @@
 #login-form input:not([type="submit"]) {
   border-bottom: 1px solid var(--main-green);
   transition: border-color 0.3s ease-in-out;
-  color: var(--main-green);
+  color: var(--main-light-green);
+  font-size: var(--font-micro);
 }
 
 #login-form input::placeholder {
@@ -50,23 +52,20 @@
 
 #login-form :nth-child(3) {
   margin-top: 30px;
-  font-size: var(--font-micro);
 }
 
 #login-form :nth-child(4) {
   margin-top: 10px;
-  font-size: var(--font-micro);
 }
 
 #login-form input:focus {
-  border-color: var(--main-green);
-  color: var(--main-green);
+  color: var(--main-light-green);
   font-size: var(--font-micro);
 }
 
 #login-form input:focus::-webkit-input-placeholder,
 textarea:focus::-webkit-input-placeholder {
-  color: var(--main-green);
+  color: var(--main-light-green);
   font-size: var(--font-micro);
   transition: 0.3s ease-in-out;
 }
@@ -74,18 +73,25 @@ textarea:focus::-webkit-input-placeholder {
 #login-form input[type="submit"] {
   background-color: var(--main-green);
   font-size: var(--font-micro);
+  color: var(--title-white);
   cursor: pointer;
   padding: 18px 0px;
   border-radius: 5px;
 }
 
+
+#login-form input[type="submit"]:active {
+  transform: scale(0.9);
+}
+
+
 #login-form a {
-  margin-top: 30px;
+  margin-top: 40px;
   text-align: center;
   text-decoration: none;
   color: inherit;
   /* color: inherit; 이 속성은 부모로부터 상속받는 것. */
   font-size: var(--font-micro);
-  opacity: 0.7;
-  color: var(--main-green);
+  color: var(--title-white);
+  opacity: 0.8;
 }

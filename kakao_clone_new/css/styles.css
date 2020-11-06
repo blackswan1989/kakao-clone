@@ -23,16 +23,10 @@
 
 body {
   font-family: -apple-system, "Segoe UI", "Helvetica Neue", sans-serif;
-
   font-family: "Open Sans", sans-serif;
-
-  /* height: 1000vh; */
-
   background-color:var(--main-light-green);
-
   width: 100%;
   overflow-x: hidden;
-  transition-duration: 0.3s;
-
   cursor: default;
+  transition-duration: 0.5;
 }

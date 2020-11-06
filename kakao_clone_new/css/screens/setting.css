@@ -1,3 +1,41 @@
+#friends-display-link.setting-info{
+  cursor: default;
+}
+
+.user-component.settings {
+  margin-bottom: 20px;
+  /* padding-bottom: 30px; */
+}
+
+.user-component__column.settings {
+  height: 120px;
+  transition: all 1s ease-in-out;
+  transition-duration: 0.3s;
+}
+
+.user-component__column-left.settings{
+  margin: 0px 10px;
+}
+
+
+.user-component__column-left.settings i{
+  font-size: var(--font-large);
+  color: var(--title-dark-gray);
+  margin-right: 20px;
+}
+
+.user-component__text.settings h4{
+  font-weight: var(--weight-bold);
+  color: var(--title-dark-gray);
+}
+
+.user-component__column-right.settings{
+ margin: 0px 10px;
+}
+
+
+
+/* settings switch */
 input[type="checkbox"] { 
   display: none; 
 } 

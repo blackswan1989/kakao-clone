@@ -57,7 +57,7 @@
 /* More contents */
 .user-component.more{
   background-color: var(--title-white);
-  height: 800px;
+  /* height: 100vh; */
 }
 
 .more-contents{
@@ -106,7 +106,7 @@
   flex-grow: 1;
   margin-top: 5px;
   color: var(--title-dark-gray);
-  margin-bottom: 60px;
+  margin-bottom: 65px;
 }
 
 .more-contents__icons--box{
@@ -114,8 +114,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 115px;
-  height: 105px;
+  width: 25%;
+  height: 110px;
   transition-duration: 0.3s;
 }
 

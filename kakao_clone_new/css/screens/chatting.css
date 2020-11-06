@@ -116,6 +116,7 @@
   line-height: 45px;
   cursor: pointer;
   margin: 10px 0px;
+  text-align: center;
 }
 
 .type-text__container{

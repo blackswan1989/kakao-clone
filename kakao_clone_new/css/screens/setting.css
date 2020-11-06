@@ -13,6 +13,19 @@
   transition-duration: 0.3s;
 }
 
+.user-component__column.settings:hover i{
+  animation: rotateCog 2s linear forwards;
+}
+
+@keyframes rotateCog {
+  from{
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
 .user-component__column-left.settings{
   margin: 0px 10px;
 }

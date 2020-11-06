@@ -28,7 +28,7 @@
 }
 
 .screen-header__icons a > i:hover{
-  transform: rotate(360deg);
+  animation: rotateCog 1s linear infinite;
   transition-duration: 1s;
 }
 

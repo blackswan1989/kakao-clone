@@ -33,4 +33,6 @@ body {
   width: 100%;
   overflow-x: hidden;
   transition-duration: 0.3s;
+
+  cursor: default;
 }

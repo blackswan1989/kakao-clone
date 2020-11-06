@@ -43,7 +43,7 @@
   width: 100%;
   margin: 0px 15px;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  transition-duration: 0.5s;
   text-align: center;
 }
 
@@ -51,18 +51,27 @@
   transform: scale(1.1);
 }
 
+  .favorite-contact__container-column:hover img {
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+  }
+
 .favorite-contact__container-column img{
   margin:0;
   width: 50px;
   height: 50px;
   opacity: 1;
+  border-radius: 10px;
+  border: 2px solid var(--hover-white);
 }
 
 .favorite-contact__container__subtitle{
   font-size: var(  --font-tiny);
   font-weight: var(--weight-regular);
-  margin-top: 5px;
+  margin-top: 10px;
 }
+
 
 .user-component.friends {
  padding-bottom: 60px;

@@ -9,7 +9,7 @@
 .favorite-contact__container-column:hover{
   transform: translateY(-5px);
   background-color: var(--main-green);
-  background-color: var(--hover-white);
+  background-color: var(--title-white);
   color: var(--title-dark-gray);
   border-radius: 5px;
   transition-duration: 0.3s;

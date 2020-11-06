@@ -10,7 +10,11 @@
   border-top-right-radius: 35px;
   background-color: var(--title-white);
   color: var(--title-black);
-  height: 80vh;
+  min-height: 60vh;
+}
+
+.user-component.chats{
+  padding-bottom: 20px;
 }
 
 .user-component__column{
@@ -27,6 +31,10 @@
   transform: translateY(-5px);
   background-color: var(--hover-white);
   border-radius: 35px;
+}
+
+.user-component__column:last-child{
+  margin-bottom: 60px;
 }
 
 .user-component__column-left{

@@ -63,7 +63,7 @@
   height: 50px;
   opacity: 1;
   border-radius: 10px;
-  border: 2px solid var(--hover-white);
+  border: 2px solid var(--title-white);
 }
 
 .favorite-contact__container__subtitle{
@@ -74,7 +74,7 @@
 
 
 .user-component.friends {
- padding-bottom: 60px;
+ padding-bottom: 30px;
 }
 
 .user-component.friends .user-component__column{

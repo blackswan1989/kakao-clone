@@ -27,6 +27,15 @@ body {
   height: 800px;
 }
 
+i {
+  cursor: pointer;
+}
+
+i:active {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
 /* ########## status-bar ##########  */
 
 .right-status-bar {
@@ -149,6 +158,10 @@ input[type="range"]::-webkit-slider-thumb {
 .bottom-musicPlayer__btn:hover {
   color: rgb(252, 67, 0);
   transition: 0.2s ease-in-out;
+}
+
+.bottom-musicPlayer__btn:active {
+  transform: scale(0.9);
 }
 
 .bottom-musicPlayer__btn:nth-child(3) {
